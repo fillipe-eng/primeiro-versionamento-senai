@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(135deg, white,rgb(163, 160, 160), rgb(102, 102, 102),rgb(51, 50, 50));
+
+}
+
+header{
+    display: flex;
+    border: 1px black solid;
+    background-color: black;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(41, 88, 216);
+    transition: 0.8s ease-in-out;
+}
+
+#escudos{
+    width: 130px;
+}
+main{
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    margin: 5px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+img{
+    width: 200px;
+}
+div.box{
+    display: inline-block;
+}
+
+#estadio{ 
+    width: 1000px;
+}
+table{
+    margin: 0 auto;
+}
+tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5px;
+}
